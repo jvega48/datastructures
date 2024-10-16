@@ -39,7 +39,7 @@ print(find_target_sum([1, 2, 3, 4, 6], 6) == [1, 3])
 print(find_target_sum([2, 5, 9, 11], 11) == [0, 2])
 
 # Given an array of sorted numbers, move all non-duplicate number
-# instances at the beginning of the array in-place. The non-duplicate 
+# instances at the beginning of the array in-place. The non-duplicate
 # numbers should be sorted and you should not
 # use any extra space so that the solution has constant space complexity i.e., .
 
@@ -96,7 +96,7 @@ print(first_non_duplicate([2, 2, 2, 11]) == 2)
 def sort_array_by_power(arr):
     """Sorted array by power"""
     left_pointer, right_pointer, high_index = 0, len(arr) - 1, len(arr) - 1
-    squares = [x for x in range(len(arr))]
+    squares =list(range(len(arr)))
     while left_pointer <= right_pointer:
         left_square = arr[left_pointer] * arr[left_pointer]
         right_square = arr[right_pointer] * arr[right_pointer]
