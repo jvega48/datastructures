@@ -1,4 +1,4 @@
-"""Coding Challenges"""
+"""Easy - Coding Challenges - Two Pointers"""
 
 # Given an array of numbers sorted in ascending order and a target sum,
 # find a pair in the array whose sum is equal to the given target.
